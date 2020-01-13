@@ -151,7 +151,7 @@ public class LayoutHelper implements ILayout{
                 } else if (index == R.styleable.ShadowLayout_l_outerNormalColor) {
                     mOuterNormalColor = ta.getColor(index, mOuterNormalColor);
                 } else if (index == R.styleable.ShadowLayout_l_hideRadiusSide) {
-                    mHideRadiusSide = ta.getColor(index, mHideRadiusSide);
+                    mHideRadiusSide = ta.getInteger(index, mHideRadiusSide);
                 } else if (index == R.styleable.ShadowLayout_l_showBorderOnlyBeforeL) {
                     mIsShowBorderOnlyBeforeL = ta.getBoolean(index, mIsShowBorderOnlyBeforeL);
                 } else if (index == R.styleable.ShadowLayout_l_shadowElevation) {
